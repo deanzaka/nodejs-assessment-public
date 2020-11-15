@@ -10,10 +10,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://us-south.git.cloud.ibm.com/JTI/nodejs-assessment"
-  },
+  "repository": "https://us-south.git.cloud.ibm.com/JTI/nodejs-assessment",
   "author": "hdeanzak@id.ibm.com",
   "license": "ISC"
 }
