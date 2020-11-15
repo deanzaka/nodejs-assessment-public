@@ -39,7 +39,7 @@ This instruction will get the unit test running on a docker container
 
 ### Prerequisite
 
-To run this please install latest version of [Docker Engine](https://docs.docker.com/get-docker/) in your machine
+To run this please install latest version of [Docker](https://docs.docker.com/get-docker/) in your machine
 
 ### Run unit test
 
