@@ -7,7 +7,7 @@ const generateNumber = (low, high) => {
 };
 
 describe("Basic functions:", () => {
-  describe.skip("Add function", () => {
+  describe("Add function", () => {
     it("should return the sum of variable a and b", () => {
       const a = generateNumber(0, 100);
       const b = generateNumber(0, 100);
@@ -17,7 +17,7 @@ describe("Basic functions:", () => {
     });
   });
 
-  describe.skip("Count word function", () => {
+  describe("Count word function", () => {
     it("should count the occurence of given text (case insensitive)", () => {
       const text = "This is the test string for this test task";
 
@@ -27,7 +27,7 @@ describe("Basic functions:", () => {
     });
   });
 
-  describe.skip("Find missing number function", () => {
+  describe("Find missing number function", () => {
     it("should find missing number in array of 1 - 100", () => {
       const rand = generateNumber(1, 100);
       let numArray = [];
@@ -39,7 +39,7 @@ describe("Basic functions:", () => {
     });
   });
 
-  describe.skip("Find duplicates function", () => {
+  describe("Find duplicates function", () => {
     it("should return an array of duplicates number (sorted)", () => {
       const a = [0, 1, 1, 2, 3, 4, 4, 5, 6, 7, 8, 8, 9];
       const b = [9, 9, 9, 8, 7, 6, 5, 4, 3, 2, 2, 1, 1, 0];
